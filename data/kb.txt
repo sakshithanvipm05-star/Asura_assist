@@ -1,0 +1,332 @@
+Bugasura is an AI-powered platform combining bug tracking, test management, and collaboration.
+
+AI Issue Tracker:
+AI detects duplicates, suggests descriptions, and speeds up bug logging.
+
+Test Management:
+Manage, organize, execute, and track test cases with full traceability.
+
+Bug Reporting:
+Capture bugs with screenshots, annotations, and session replays.
+
+Integrations:
+Supports Jira, Slack, GitHub, and CI/CD tools.
+
+Tab 1
+1. What exactly is Bugasura?
+Bugasura is an AI-powered issue tracking and quality platform that helps teams report, track, prioritize, and resolve bugs, issues, and test cases across software projects more efficiently. It also includes contextual bug reporting tools and test management capabilities.
+2. Is Bugasura really free?
+Yes — Bugasura offers a Free Forever plan with all core features including AI issue tracking, bug reporters, unlimited users, unlimited projects, integrations, and up to 50 GB storage at no cost. 
+3. What does Bugasura help teams do?
+Bugasura helps you:
+	•	Log and manage bugs with AI-generated descriptions, severity, and impact. 
+	•	Run test management with requirements, test runs, and coverage tracking. 
+	•	Capture contextual bug reports from web apps or end users. 
+	•	Monitor performance metrics like Google Lighthouse. 
+4. How does the AI in Bugasura work?
+Bugasura’s AI:
+	•	Auto-generates bug descriptions from minimal input. 
+	•	Suggests severity, tags, and issue type. 
+	•	Detects similar issues so you don’t log duplicates.  Future AI features may include suggested fixes.
+
+
+
+
+5. Can I use Bugasura for test management?
+Yes. Bugasura includes Test Management — letting you:
+	•	Create requirements and link test cases. 
+	•	Track test coverage in real time. 
+	•	Schedule and monitor test runs. 
+	•	Raise bugs directly from test failures.
+6. What are Bugasura’s bug reporters?
+Bugasura provides:
+	•	Chrome Reporter (extension) — captures screenshots, activity flows, annotated feedback, and syncs directly into Bugasura. 
+	•	Bugasura Widget — an embeddable widget for SaaS products that lets end users report issues, capturing session replays and console logs automatically. 
+7. What tools Integration does Bugasura support?
+Bugasura integrates with many tools including **JIRA, GitHub, Slack, Asana, ClickUp, Zendesk,” and more — seamlessly syncing issues and workflows between systems.
+8. Can I import or export data?
+Yes. You can:
+	•	Import issues from CSV, Google Sheets, Excel, and JIRA. 
+	•	Export issues in CSV or JSON formats.
+9. Are public bug trackers possible?
+Yes — you can make projects or individual issues public so external users, customers, or partners can view or contribute.
+
+
+10. What views and reporting are available?
+Bugasura provides:
+	•	List, board (Kanban), and advanced filters to sort issues. 
+	•	Visual dashboards that highlight severity distribution and sprint insights. 
+11. Can I customize workflows?
+Absolutely. You can:
+	•	Customize issue fields. 
+	•	Create unlimited sprints and workflows. 
+	•	Tailor project and team settings. 
+12. Is there API access?
+Yes. Bugasura provides an official API with key authentication for automation and integrations.
+13. What plans are available beyond free?
+Though the Free plan is generous, Bugasura also supports on-premise deployment and custom enterprise setups with advanced customization — contact support for pricing.
+14. How secure is Bugasura?
+Bugasura runs on AWS with multiple security layers, role-based access control, encrypted data transfer, and isolated tenant data separation.SOC 2 certification is currently in progress to further strengthen security and compliance
+15. What are the top three USP’s of Bugasura?
+AI-powered issue creation – Auto-generates bug descriptions, severity, tags, and detects duplicates with minimal input. 
+Built-in contextual bug reporting – Chrome extension and in-app widget capture screenshots, logs, session data, and user actions automatically. 
+All-in-one quality platform – Combines bug tracking, test management, requirements, and performance insights in a single tool (Free Forever plan).
+
+16. How do I get started with Bugasura?
+	•	Go to bugasura.io and sign up (email or SSO). 
+	•	Create your first project from the dashboard. 
+	•	Invite team members and assign roles. 
+	•	Start logging bugs — AI auto-fills details like severity and tags. 
+	•	Install the Chrome bug reporter (optional) for contextual reporting. 
+	•	Configure workflows, statuses, and priorities as needed. 
+	•	(Optional) Set up test management – requirements, test cases, test runs. 
+	•	Integrate with tools like GitHub, Jira, Slack, etc. 
+	•	Use boards, filters, and dashboards to track progress.
+
+17. Does Bugasura support unlimited projects on the free plan?  Yes. Bugasura allows unlimited projects even on its Free Forever plan.
+18. Are there limits on the number of users in Bugasura?  No. Bugasura supports unlimited users, making it suitable for growing teams.
+19. How does Bugasura handle storage for attachments and files?  Bugasura provides generous cloud storage (up to 50 GB on free plan) for screenshots, logs, and attachments.
+20. Can Bugasura be used without installing any extensions?  Yes. Bugs can be logged directly from the web application without using the Chrome extension.
+21. Does Bugasura support role-based access control?  Yes. Bugasura supports role-based permissions to control access at project and team levels.
+22. Can Bugasura be used as a replacement for Jira?  Yes. Bugasura is positioned as a lighter, AI-powered alternative to traditional tools like Jira for issue and test tracking.
+23. Does Bugasura support multi-project dashboards?  Yes. Users can view issues and insights across multiple projects from a centralized dashboard.
+24. Can Bugasura track non-bug work items?  Yes. Apart from bugs, Bugasura can track tasks, improvements, and feature-related issues.
+25. Does Bugasura allow linking issues across projects?  Yes. Bugasura supports issue linking and cross-referencing for better traceability.
+26. Can Bugasura be used by startups and early-stage teams?  Yes. Bugasura is designed to be cost-effective and scalable, making it ideal for startups.
+27. Does Bugasura require any on-device installation?  No. Bugasura is a cloud-based platform and works entirely via the browser.
+28. How does Bugasura help reduce manual documentation?  Bugasura uses AI-generated summaries and auto-filled fields to reduce manual effort during bug creation.
+29. Can Bugasura be used during production monitoring?  Yes. With widgets and performance insights, Bugasura can capture production issues and user-reported bugs.
+30. What reporting formats does Bugasura support?
+Bugasura supports exporting issues in CSV and JSON formats for offline analysis and sharing. 
+31. What types of visual reports does Bugasura provide?
+Bugasura offers automatic dashboards and visual reports that highlight key metrics like severity distribution and sprint insights.
+32. What performance monitoring data does Bugasura show?
+It pulls Google Core Lighthouse performance metrics and site health reports directly into your projects. 
+33. Why would someone use Bugasura for test management?
+To plan, organize, execute, and report test cases with real-time tracking and requirements mapping — all in one place. 
+34. What is a test suite in Bugasura?
+A test suite is a group of related test cases organized to match how your team works.
+35. What is a requirement in Bugasura’s test management?
+A requirement is a defined feature or behavior that can be linked to test cases for coverage tracking. 
+36. What does Bugasura’s built-in reporting help teams do?
+It gives insights on sprint health, traceability, execution progress, and blockers without extra tools. 
+37. What environments can be organized within Bugasura projects?
+Projects can be used to organize team work across different environments and instances, such as dev, QA, staging, or production. 
+38. What kind of sorting and filtering does Bugasura provide?
+Advanced sorting and filtering options let teams find issues by severity, tags, status, and keyword search.
+
+39. What is a public project in Bugasura?
+Public projects are projects visible to external users or customers to allow broader engagement.
+40. What does “session replay” capture in Bugasura’s widget?
+Session replay captures user interactions leading up to an issue (clicks and navigation context) in the bug report.
+41. Why are unlimited projects valuable in Bugasura?
+Teams can track multiple products or modules without restriction — each with issue trackers, filters, and dashboards.
+42. Why are unlimited users important in Bugasura?
+Unlimited users let all stakeholders (QA, Dev, Product, Support) collaborate in the same quality platform.
+43. Who uses the Bugasura integration features?
+Teams use integrations to sync bugs and workflows with tools like GitHub, Jira, Slack, Zendesk, and more. 
+44. Who benefits from Bugasura’s test coverage insights?
+QA leads, product owners, and engineering managers benefit from coverage and traceability insights.
+45. When should a user export reports from Bugasura?
+Before releases, stakeholder reviews, or audits to share sprint health, coverage, and execution data. 
+
+46. When should a team link bugs with test cases?
+During test execution to ensure contextual traceability from failed tests to bugs. 
+47. Which tools can pull requirements and link directly into Bugasura tests?
+Tools like Jira can be integrated so that requirements are linked into Bugasura test workflows. 
+48. Where does Bugasura store its data?
+Bugasura stores data securely in its cloud infrastructure and provides on-premise deployment options too. 
+49. Where can users access Bugasura from?
+Users can access Bugasura from any modern web browser without on-device installation. 
+50. What is “advanced filters” in Bugasura?
+A feature that lets users narrow down issues using multiple criteria like tags, severity, and text search. 
+51. Why is the AI issue tracker faster than traditional tools?
+Because it helps teams auto-fill details, detect similar issues, and generate impact summaries quickly. 
+52. What is contextual capturing in Bugasura reporters?
+It means Bugasura captures screenshots, device info, and user environment automatically with bug reports. 
+53. What does automatic dashboard mean in Bugasura?
+Dashboards that are auto-generated from your real issue data to focus team attention. 
+54. How does Bugasura compare financially to other tools?
+Unlike many issue trackers, Bugasura offers unlimited features in the free plan with no per-user cost. 
+55. What does cross-project reporting allow?
+It allows users to view issues and insights across multiple projects in centralized dashboards. 
+56. What kind of team workflows can be defined?
+Custom workflows including statuses, sprints, and field configurations per team need. 
+57. What is performance monitoring in Bugasura used for?
+To track website/landing page vitals and speed metrics using Lighthouse reports. 
+58. Who can see performance metrics in Bugasura?
+Team members with access to the project’s dashboard can view performance reports. 
+59. Where are the integration settings in Bugasura?
+Integration settings are available inside the Integrations section of your Bugasura workspace. 
+60. What happens if a test run fails?
+You can raise bugs directly from failed test runs without switching tools. 
+61. Which teams find Bugasura intuitive?
+Teams including QA, development, product owners, and cross-functional groups. 
+62. What export reports are available from test management?
+Export options include execution trends, traceability matrix, and sprint health reports. 
+63. What does “Organize tests your way” mean?
+It means teams can use folders, tags, and suites to structure their test cases. 
+64. How does Bugasura help reduce tool hopping?
+By combining bugs, tests, performance, and insights in a single platform. 
+65. When is Bugasura free forever?
+Right from signup — no time trials or limited features. 
+66. What reporting views are tailored for leadership?
+Executive dashboards with high-level sprint and quality insights. 
+67. Which export format is useful for integrating external tools?
+CSV or JSON exports can be imported into spreadsheets and external dashboards. 
+68. Who benefits from session replay in reporters?
+Support teams and product owners who want full context for user-reported issues. 
+69. Why is real-time tracking important in Bugasura?
+It allows teams to see progress instantly and make faster decisions. 
+70. When should integrations be set up?
+Early in setup to sync issues and workflows with tools like Jira or GitHub. 
+71. What centralized view helps multiple teams collaborate?
+Cross-project dashboards showing overall health and issue trends.
+
+
+Group
+Group 1: Product Overview & Core Value
+1. What exactly is Bugasura? Bugasura is an AI-powered issue tracking and quality platform that helps teams report, track, prioritize, and resolve bugs, issues, and test cases across software projects more efficiently. It also includes contextual bug reporting tools and test management capabilities.
+2. What does Bugasura help teams do? Bugasura helps you:  1.Log and manage bugs with AI-generated descriptions, severity, and     impact.  2.Run test management with requirements, test runs, and coverage tracking.  3.Capture contextual bug reports from web apps or end users.
+3. What are the top three USP’s of Bugasura? 1.AI-powered issue creation – Auto-generates bug descriptions, severity, tags, and detects duplicates with minimal input. 2.Built-in contextual bug reporting – Chrome extension and in-app widget capture screenshots, logs, session data, and user actions automatically. 3.All-in-one quality platform – Combines bug tracking, test management, and requirements in a single tool (Free Forever plan).
+4. Can Bugasura be used as a replacement for Jira? Yes. Bugasura is positioned as a lighter, AI-powered alternative to traditional tools like Jira for issue and test tracking.
+5. Can Bugasura track non-bug work items? Yes. Apart from bugs, Bugasura can track tasks, improvements, and feature-related issues.
+
+Group 2: Pricing, Plans & Accessibility
+6. Is Bugasura really free? Yes . Bugasura offers a Free Forever plan with all core features including AI issue tracking, bug reporters, unlimited users, unlimited projects, integrations, and up to 50 GB storage at no cost.
+7. What plans are available beyond free? Though the Free plan is generous, Bugasura also supports on-premise deployment and custom enterprise setups with advanced customization — contact support for pricing.
+8. Does Bugasura support unlimited projects on the free plan? Yes. Bugasura allows unlimited projects even on its Free Forever plan.
+9. Are there limits on the number of users in Bugasura? No. Bugasura supports unlimited users, making it suitable for growing teams.
+10. How does Bugasura handle storage for attachments and files? Bugasura provides generous cloud storage (up to 50 GB on free plan) for screenshots, logs, and attachments.
+11. When is Bugasura free forever? Right from signup ,no time trials or limited features.
+
+Group 3: Getting Started & Usage
+12. How do I get started with Bugasura?  1.Go to bugasura.io and sign up (email or SSO).  2.Create your first project from the dashboard.  3.Invite team members and assign roles.  4.Start logging bugs — AI auto-fills details like severity and tags.  5.Install the Chrome bug reporter (optional) for contextual reporting.  6.Configure workflows, statuses, and priorities as needed.  7.(Optional) Set up test management – requirements, test cases, test runs.  8.Integrate with tools like GitHub, Jira, Slack, etc.  9.Use boards, filters, and dashboards to track progress.
+13. Can Bugasura be used without installing any extensions? Yes. Bugs can be logged directly from the web application without using the Chrome extension.
+14. Does Bugasura require any on-device installation? No. Bugasura is a cloud-based platform and works entirely via the browser.
+15. Where can users access Bugasura from? Users can access Bugasura from any modern web browser without on-device installation.
+
+Group 4: AI & Automation
+16. How does the AI in Bugasura work? Bugasura’s AI:  1.Auto-generates bug descriptions from minimal input.  2.Suggests severity, tags, and issue type.  3.Detects similar issues so you don’t log duplicates.  4.Future AI features may include suggested fixes.
+17. Why is the AI issue tracker faster than traditional tools? Because it helps teams auto-fill details, detect similar issues, and generate impact summaries quickly.
+18. How does Bugasura help reduce manual documentation? Bugasura uses AI-generated summaries and auto-filled fields to reduce manual effort during bug creation.
+19. Can AI in Bugasura suggest similar test cases automatically?
+Yes. Bugasura uses GenAI to suggest similar test cases in real time while creating or editing one, helping teams avoid duplication and improve coverage.
+20. Does Bugasura support AI for requirement creation, test case generation and issue creation?
+Yes. Bugasura now includes GenAI in requirement creation , test case generation and issue creation, helping users generate structured and clear requirements/test cases/issues quickly.
+
+Group 5: Bug Reporting & Contextual Capture
+21. What are Bugasura’s bug reporters? Bugasura provides: 1.Chrome Reporter (extension) — captures screenshots, activity flows,    annotated feedback, and syncs directly into Bugasura. 2.Bugasura Widget — an embeddable widget for SaaS products that lets end users report issues, capturing session replays and console logs automatically.
+22. What does “session replay” capture in Bugasura’s widget? Session replay captures user interactions leading up to an issue (clicks and navigation context) in the bug report.
+23. What is contextual capturing in Bugasura reporters? It means Bugasura captures screenshots, device info, and user environment automatically with bug reports.
+24. Can Bugasura be used during production monitoring? Yes. With widgets, Bugasura can capture production issues and user-reported bugs.
+
+Group 6: Issue Management & Workflows
+25. What views and reporting are available? Bugasura provides:  1.List, board (Kanban), and advanced filters to sort issues.  2.Visual dashboards that highlight severity distribution and sprint insights.
+26. Can I customize workflows? Absolutely. You can:  1.Customize issue fields.  2.Create unlimited sprints and workflows.  3.Tailor project and team settings.
+27. What kind of sorting and filtering does Bugasura provide? Advanced sorting and filtering options let teams find issues by severity, tags, status, and keyword search.
+28. What are “advanced filters” in Bugasura? A feature that lets users narrow down issues using multiple criteria like tags, severity, and text search.
+29. Does Bugasura allow linking issues across projects? Yes. Bugasura supports issue linking and cross-referencing for better traceability.
+30. Can Bugasura save draft issues before submission?
+Yes. Users can save draft issues to prevent data loss while creating or editing issues
+31. Can users pin important issues in Bugasura?
+Yes. Users can pin issues for quick access in large projects. 
+32. What is step-by-step execution in Bugasura test runs?
+Step-by-step execution allows testers to execute and track each step of a test case individually, making it easier to identify failures, monitor progress, and improve traceability during test runs.
+
+Group 7: Test Management & Quality Tracking
+33. Can I use Bugasura for test management? Yes. Bugasura includes Test Management — letting you:  1.Create requirements and link test cases.  2.Track test coverage in real time.  3.Schedule and monitor test runs.  4.Raise bugs directly from test failures.
+34. Why would someone use Bugasura for test management? To plan, organize, execute, and report test cases with real-time tracking and requirements mapping — all in one place.
+35. What is a test suite in Bugasura? A test suite is a group of related test cases organized to match how your team works.
+36. What is a requirement in Bugasura’s test management? A requirement is a defined feature or behavior that can be linked to test cases for coverage tracking.
+37. What happens if a test run fails? You can raise bugs directly from failed test runs without switching tools.
+38. What export reports are available from test management? Export options include execution trends, traceability matrix, and sprint health reports.
+39. What does “Organize tests your way” mean? It means teams can use folders, tags, and suites to structure their test cases.
+40. Can test cases be organized in folders within sprints?
+Yes. Test cases can now be structured in folders within sprint views for better organization and navigation.
+41. Does Bugasura support project-based test data?
+Yes. Teams can define project-specific variables for test data and reuse them across test cases
+42. How does Bugasura help identify revenue-critical user journeys?
+Bugasura connects user journeys with test coverage and bugs, helping teams easily identify and prioritize areas that affect revenue.
+
+Group 8: Integrations & API
+43. What tools Integration does Bugasura support? Bugasura integrates with many tools including JIRA, GitHub, Slack, Asana, ClickUp, Zendesk, and more — seamlessly syncing issues and workflows between systems.
+44. Is there API access? Yes. Bugasura provides an official API with key authentication for automation and integrations.
+45. Where are the integration settings in Bugasura? Integration settings are available inside the Integrations section of your Bugasura workspace.
+46. When should integrations be set up? Early in setup to sync issues and workflows with tools like Jira or GitHub.
+47. Is Bugasura MCP-enabled?
+Yes. Bugasura supports MCP (Model Context Protocol), enabling AI tools and assistants to interact directly with Bugasura data and workflows.
+48. Is the Bugasura–Jira integration one-way or two-way?
+Bugasura supports two-way synchronization with Jira, allowing issues to be created, updated, and synced across both platforms in real time.
+49. Is the Bugasura–ClickUp integration two-way?
+Yes. Bugasura supports two-way synchronization with ClickUp, ensuring updates in one tool reflect in the other.
+
+Group 9: Reporting, Dashboards & Visibility
+50. What reporting formats does Bugasura support? Bugasura provides in-app dashboards and visual summaries for tracking issue status, severity distribution, and sprint progress..
+51. What types of visual reports does Bugasura provide? Bugasura offers automatic dashboards and visual reports that highlight key metrics like severity distribution and sprint insights.
+52. What does automatic dashboard mean in Bugasura? Dashboards that are auto-generated from your real issue data to focus team attention.
+53. What does cross-project reporting allow? It allows users to view issues and insights across multiple projects in centralized dashboards.
+54. What centralized view helps multiple teams collaborate? Cross-project dashboards showing overall health and issue trends.
+55. What reporting views are tailored for leadership? Executive dashboards with high-level sprint and quality insights.
+
+Group 10: Security, Access & Data
+56. How secure is Bugasura? Bugasura runs on AWS with multiple security layers, role-based access control, encrypted data transfer, and isolated tenant data separation. SOC 2 certification is currently in progress to further strengthen security and compliance.
+57. Does Bugasura support role-based access control? Yes. Bugasura supports role-based permissions to control access at project and team levels.
+58. Where does Bugasura store its data? Bugasura stores data securely in its cloud infrastructure and provides on-premise deployment options too.
+
+Group 11: Teams, Collaboration & Use Cases
+59. Are public bug trackers possible? Yes — you can make projects or individual issues public so external users, customers, or partners can view or contribute.
+60. Does Bugasura support multi-project dashboards? Yes. Users can view issues and insights across multiple projects from a centralized dashboard.
+61. Who uses the Bugasura integration features? Teams use integrations to sync bugs and workflows with tools like GitHub, Jira, Slack, Zendesk, and more.
+62. Who benefits from Bugasura’s test coverage insights? QA leads, product owners, and engineering managers benefit from coverage and traceability insights.
+63. Which teams find Bugasura intuitive? Teams including QA, development, product owners, and cross-functional groups.
+64. Can Bugasura be used by startups and early-stage teams? Yes. Bugasura is designed to be cost-effective and scalable, making it ideal for startups.
+65. Why are unlimited users important in Bugasura? Unlimited users let all stakeholders (QA, Dev, Product, Support) collaborate in the same quality platform.
+
+Group 12: Financial & Strategic Value
+66. Why are unlimited projects valuable in Bugasura? Teams can track multiple products or modules without restriction — each with issue trackers, filters, and dashboards.
+67. How does Bugasura compare financially to other tools? Unlike many issue trackers, Bugasura offers unlimited features in the free plan with no per-user cost.
+68. How does Bugasura help reduce tool hopping? By combining bugs, tests, and insights in a single platform.
+
+Group 13: Reporting Timing, Migrations & Best Practices
+69. Can I import or export data? Yes. You can: 1.Import issues from CSV, Google Sheets, Excel, and JIRA. 2.Export issues in CSV or JSON formats.
+70. Which export format is useful for integrating external tools? CSV or JSON exports can be imported into spreadsheets and external dashboards.
+71. When should a user export reports from Bugasura? Before releases, stakeholder reviews, or audits to share sprint health, coverage, and execution data.
+72. When should a team link bugs with test cases? During test execution to ensure contextual traceability from failed tests to bugs.
+73. Can I import requirements in bulk into Bugasura using CSV?
+Yes. Bugasura allows users to import requirements in bulk using CSV files, making it easier to migrate data or add large sets of requirements without manual entry.
+
+
+Group 14: Collaboration & Real-Time Tracking
+74. What environments can be organized within Bugasura projects? Projects can be used to organize team work across different environments and instances, such as dev, QA, staging, or production.
+75. What is a public project in Bugasura? Public projects are projects visible to external users or customers to allow broader engagement.
+76. Who benefits from session replay in reporters? Support teams and product owners who want full context for user-reported issues.
+77. Why is real-time tracking important in Bugasura? It allows teams to see progress instantly and make faster decisions.
+78. How can teams track changes made to requirements in Bugasura?
+Bugasura provides activity logs for requirements, allowing teams to track all updates and changes in one place for better visibility and accountability
+
+
+Group 15: Productivity & Project Management Enhancements
+79. Does Bugasura support bulk actions on issues and test cases?
+Yes. Bugasura allows bulk updates, enabling teams to modify multiple issues or test cases at once, improving efficiency in large projects
+80. How does the Trash feature work in Bugasura?
+Bugasura’s Trash feature allows users to recover deleted items easily by restoring them from Trash , helping prevent accidental data loss and improving data safety.
+81. How does Bugasura provide end-to-end traceability within a sprint?
+It enables end-to-end traceability by connecting requirements, test cases, and issues within a sprint, ensuring complete lifecycle visibility and accurate coverage tracking.
+82. Can I customize requirement types in Bugasura?
+Yes. Bugasura allows teams to define and use flexible requirement types (such as Epics, Stories, Tasks, or custom categories), enabling better structuring and alignment with different workflows and project needs.
+83. How does Bugasura provide visibility into sprint performance?  Bugasura uses sprint reports to give a complete view of progress, issues, and trends, helping teams make better decisions.
+84. Can teams create and manage documentation within Bugasura?
+Yes. Bugasura includes a built-in knowledge base that allows teams to create, store, and manage documentation in one place, making it easier to share information and collaborate. 
+
+
+
+
+
+
+
+
+
+
+
+
