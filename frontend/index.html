@@ -1,92 +1,188 @@
-<!DOCTYPE html>
+̂<!DOCTYPE html>
 <html>
 <head>
-<title>Bugasura AI Help</title>
+  <title>Asura Assist</title>
 
-<style>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
-body {
-font-family: Arial;
-background: #f4f6f8;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-}
+    .drawer {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-.box {
-width: 400px;
-background: white;
-border-radius: 10px;
-padding: 15px;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+    .header {
+      padding: 14px;
+      background: linear-gradient(90deg, #5b5bd6, #7c3aed);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-.messages {
-height: 300px;
-overflow-y: auto;
-margin-bottom: 10px;
-}
+    .new-btn {
+      background: rgba(255,255,255,0.2);
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
 
-.user {
-text-align: right;
-color: blue;
-margin: 5px 0;
-}
+    .messages {
+      flex: 1;
+      padding: 15px;
+      overflow-y: auto;
+      background: #f8fafc;
+    }
 
-.bot {
-text-align: left;
-color: green;
-margin: 5px 0;
-}
+    .msg {
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 14px;
+      max-width: 80%;
+      font-size: 14px;
+      line-height: 1.5;
+    }
 
-input {
-width: 70%;
-padding: 8px;
-}
+    .user {
+      background: linear-gradient(90deg, #5b5bd6, #7c3aed);
+      color: white;
+      margin-left: auto;
+    }
 
-button {
-padding: 8px;
-}
-</style>
+    .bot {
+      background: #e5e7eb;
+      color: #111827;
+    }
+
+    .input-box {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+      gap: 8px;
+    }
+
+    input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      min-width: 0;
+    }
+
+    .send-btn {
+      padding: 10px 14px;
+      background: linear-gradient(90deg, #5b5bd6, #7c3aed);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    /* Answer formatting */
+    .answer-title {
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .answer-list {
+      padding-left: 16px;
+      margin: 6px 0;
+    }
+
+    .answer-footer {
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="box">
-<h3>🤖 Bugasura AI Help</h3>
+<div class="drawer">
 
-<div id="messages" class="messages"></div>
+  <div class="header">
+    <span>🤖 Asura Assist</span>
+    <button class="new-btn" onclick="clearChat()">New</button>
+  </div>
 
-<input id="query" placeholder="Ask something..." />
-<button onclick="send()">Send</button>
+  <div id="messages" class="messages">
+    <div class="msg bot">Hi 👋 How can I help you today?</div>
+  </div>
+
+  <div class="input-box">
+    <input id="query" placeholder="Ask something..." />
+    <button class="send-btn" onclick="send()">Send</button>
+  </div>
+
 </div>
 
 <script>
-async function send() {
-const input = document.getElementById("query");
-const msg = input.value;
 
-if (!msg) return;
-
-const messages = document.getElementById("messages");
-
-messages.innerHTML += `<div class="user">You: ${msg}</div>`;
-
-input.value = "";
-
-const res = await fetch("http://localhost:8000/chat", {
-method: "POST",
-headers: {"Content-Type": "application/json"},
-body: JSON.stringify({ query: msg })
-});
-
-const data = await res.json();
-
-messages.innerHTML += `<div class="bot">Bot: ${data.answer}</div>`;
-
-messages.scrollTop = messages.scrollHeight;
+function clearChat() {
+  document.getElementById("messages").innerHTML =
+    '<div class="msg bot">Hi 👋 How can I help you today?</div>';
 }
+
+async function send() {
+  const input = document.getElementById("query");
+  const msg = input.value;
+
+  if (!msg) return;
+
+  const messages = document.getElementById("messages");
+
+  // user message
+  messages.innerHTML += `<div class="msg user">${msg}</div>`;
+  input.value = "";
+
+  // loader
+  const id = "msg-" + Date.now();
+  messages.innerHTML += `<div id="${id}" class="msg bot">Thinking...</div>`;
+
+  try {
+    const res = await fetch("http://localhost:8000/chat", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ query: msg })
+    });
+
+    const data = await res.json();
+
+    document.getElementById(id).innerHTML = formatAnswer(data.answer);
+
+  } catch {
+    document.getElementById(id).innerText = "⚠️ Backend error";
+  }
+}
+
+function formatAnswer(text) {
+  if (!text) return "No response";
+
+  const points = text.split(". ").slice(0, 4);
+
+  const bullets = points
+    .map(p => `<li>${p.trim()}</li>`)
+    .join("");
+
+  return `
+    <div class="answer-title">Here’s what I found:</div>
+    <ul class="answer-list">${bullets}</ul>
+    <div class="answer-footer">
+      <span>Source: Knowledge Base</span>
+      <span>👍 👎</span>
+    </div>
+  `;
+}
+
 </script>
 
 </body>

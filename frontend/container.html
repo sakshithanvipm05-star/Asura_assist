@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Asura Builder</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+.input-box {
+flex:1;
+padding: 10px;
+border-radius:8px;
+border:1px solid #CCC;
+min-width:0;
+}
+    /* FLOATING BUTTON */
+    .chat-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: linear-gradient(90deg, #5b5bd6, #7c3aed);
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* CHAT PANEL */
+    .chat-container {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: 380px;
+      height: 100vh;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      box-shadow: -3px 0 10px rgba(0,0,0,0.2);
+    }
+
+    .chat-container.open {
+      transform: translateX(0);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- MAIN APP -->
+<div style="padding:20px;">
+  <h2>Asura Builder</h2>
+  <p>Your product UI goes here</p>
+</div>
+
+<!-- CHAT BUTTON -->
+<button class="chat-toggle" onclick="toggleChat()">💬</button>
+
+<!-- CHAT PANEL -->
+<div id="chatBox" class="chat-container">
+  <iframe src="./index.html"></iframe>
+</div>
+
+<script>
+function toggleChat() {
+  const box = document.getElementById("chatBox");
+  box.classList.toggle("open");
+}
+</script>
+
+</body>
+</html>
+
+

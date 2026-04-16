@@ -10,8 +10,9 @@ class Query(BaseModel):
 
 @app.post("/chat")
 def chat(q: Query):
-    answer, sources = get_answer(q.query)
-    return {"answer": answer, "sources": sources}
+   answer = get_answer(q.query)
+   return {"answer": answer}
+
 
 @app.get("/")
 def root():
